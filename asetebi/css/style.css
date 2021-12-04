@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+}
+header{
+    height: 40px;
+    background-color: #444;
+    align-items: center;
+}
+header a{ 
+    color: rgba(255,255,255,0.6);;
+    text-decoration: none;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+header .d-flex{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+.d-flex nav{
+    margin-left: -260px;
+    display: flex;
+}
+.logo{
+    margin: -3px;
+    display: flex;
+}
+.logo img{
+    width: 25px;
+    height: 30px;
+    margin-left: 5px;  
+}
+.logo a{
+    color: white;
+    font-size: 20px;
+}
+.search-container{
+    height: 40px;
+    width: 170px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.search-container input{
+    margin-bottom: 10px;
+}
+.search-container img{
+    width: 20px;
+    height: 30px;
+}
+.search-container a{
+    margin: 0;
+    width: 90px;
+    height: 30px;
+    display: block ;
+    background-color:#0066B8;
+    color: white;
+}
+.notification-block{
+    padding:10px 0;
+    background-color: #25252B;
+}
+.notification-block p{
+    margin: 0;
+    text-align: center;
+    color: rgb(148, 148, 148);
+}
+.notification-block a{
+    color: #0098FF;
+    text-decoration: none;
+}
+.welcome-container{
+    background-color: #444;
+    padding:50px 0;
+}
+.welcome-container img{
+    width: 70%;
+}
+.welcome-text-container{
+    width: 30%;
+}
+.welcome-text-container  p{
+    color: white;
+    font-size: 15px;
+}
+.welcome-text-container strong{
+    color: white;
+    font-size: 30px;
+}
+.link-container a{
+    flex-grow: 1;
+    flex-direction: column; 
+    font-size: 17px;
+    color: #444;
+}
+.link-container img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+.link-container p{
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+.windovs-download{
+    background-color:#0066B8 ;
+    width: 250px;
+    margin:2rem 0 0 0;
+    height: 4rem;
+    display: flex;
+}
+.windovs-download a{
+    font-size: 20px;
+    margin-left: 35px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.windovs-download p{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.windovs-download-top{
+    position: relative;
+    background-color: #25252B;
+    display: flex;
+    width: 230px;
+    padding:10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.6);
+}
+.windovs-download-top a{
+    text-decoration: none;
+    color: #0098FF;
+}
+.windovs-download-top2{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    padding:10px;
+}
+.windovs-download-top2 p{
+    text-align: center;
+    font-size: 14px;
+    color:rgba(255,255,255,0.6);
+}
+.windovs-download-top2 a{
+    text-decoration: none;
+    color: #0098FF;
+}
+.info-container{
+    background-color: #f5f5f5;
+    height: 200px;
+}
+.info-container p{
+    margin-top:30px;
+}
+.info-profile p{
+    width: 250px;
+    height: 100px;
+    flex-grow: 1;
+    flex-direction: column; 
+    margin-left:50px;
+    color: #444;
+    
+}
+.info-profile a{
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.profile{
+    height: 150px;
+    margin-top:15px;
+    margin-left: 210px;
+}
+.div1-text{
+    margin-top: 60px;
+    margin-left: 70px;
+    display: flex;
+}
+.div1-text img{
+    width: 300px;
+    height: 200px;
+}
+.p1{
+    font-size: 25px;
+    margin-right: 330px;
+    color: black;
+}
+.p{
+    margin-left: 150px;
+    width: 580px;
+    height: 150px;
+    font-size: 17px;
+    color: #444;
+}
+.info-container2{
+    background-color: #f5f5f5;
+    height: 300px;
+}
+.div2-text{
+    margin-top: 60px;
+    margin-left: 70px;
+    display: flex;
+}
+.p2{
+    margin-right: 90px;
+    font-size: 25px;
+    color: black;
+}
+.div2s{
+    margin-left: -180px;
+}
+.p3{
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+.p4{ 
+    width: 530px;
+    margin-left: 240px;
+    font-size: 17px;
+}
+.div4 {
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+}
+
