@@ -14,7 +14,7 @@ header a{
 }
 header .d-flex{
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .container{
     width: 1000px;
@@ -26,11 +26,10 @@ header .d-flex{
     text-align: center;
 }
 .d-flex nav{
-    margin-left: -260px;
+    padding-right: 200px;
     display: flex;
 }
 .logo{
-    margin: -3px;
     display: flex;
 }
 .logo img{
@@ -113,7 +112,7 @@ header .d-flex{
 }
 .windovs-download{
     background-color:#0066B8 ;
-    width: 250px;
+    width: 290px;
     margin:2rem 0 0 0;
     height: 4rem;
     display: flex;
@@ -133,22 +132,33 @@ header .d-flex{
 .windovs-download-top{
     position: relative;
     background-color: #25252B;
-    display: flex;
-    width: 230px;
+    width: 270px;
     padding:10px;
-    margin-top: 15px;
+    margin-top: 30px;
     border-radius: 10px;
     color: rgba(255,255,255,0.6);
+}
+.download{
+    width: 40px;
+    height: 64px;
+    margin-top: -64px;
+    margin-left: 245px;
+    border-left: 2px solid #444;
+}
+.download img{
+    margin-top: 15px;
 }
 .windovs-download-top a{
     text-decoration: none;
     color: #0098FF;
+    margin-left: 10px;
 }
 .windovs-download-top2{
     position: relative;
     display: inline-flex;
     width: 200px;
     padding:10px;
+    margin-left: -15px;
 }
 .windovs-download-top2 p{
     text-align: center;
@@ -196,17 +206,22 @@ header .d-flex{
     width: 300px;
     height: 200px;
 }
-.p1{
-    font-size: 25px;
-    margin-right: 330px;
-    color: black;
-}
 .p{
     margin-left: 150px;
     width: 580px;
     height: 150px;
     font-size: 17px;
     color: #444;
+}
+.p a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#0071bc
+}
+.p1{
+    font-size: 25px;
+    margin-right: 330px;
+    color: black;
 }
 .info-container2{
     background-color: #f5f5f5;
@@ -235,9 +250,44 @@ header .d-flex{
     margin-left: 240px;
     font-size: 17px;
 }
+.p4 a{
+    text-decoration: none;
+    color: #0071bc;
+    font-size: 20px;
+}
 .div4 {
     width: 300px;
     height: 200px;
     margin-left: 100px;
 }
-
+footer{
+    background-color: #333;
+    font-size: 12px;
+    color: #fff;
+    padding: 25px 0;
+}
+.row-ul li{
+    margin-left: 20px;
+    display: inline-flex;
+    font-size: 15px;
+}
+.row2{
+    width: 350px;
+    margin-left: 800px;
+}
+.row2 ul{
+    margin-top: -30px;
+}
+.row-text{
+    margin-left: 1170px;
+    margin-top: -30px;
+    width: 150px;
+    height: 40px;
+}
+.row-text img{
+    width: 100px;
+    height: 20px;
+}
+.row-text span{
+    display: block;
+}
