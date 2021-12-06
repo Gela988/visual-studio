@@ -14,7 +14,7 @@ header a{
 }
 header .d-flex{
     justify-content: space-between;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 .container{
     width: 1000px;
@@ -26,11 +26,15 @@ header .d-flex{
     text-align: center;
 }
 .d-flex nav{
-    padding-right: 200px;
+    /* padding-right: 200px; */
     display: flex;
+    /*  */
+    align-items: center;
 }
 .logo{
     display: flex;
+    /*  */
+    align-items: center;
 }
 .logo img{
     width: 25px;
@@ -43,12 +47,16 @@ header .d-flex{
 }
 .search-container{
     height: 40px;
-    width: 170px;
+    /* width: 170px; */
     display: flex;
-    margin-bottom: 10px;
+    /*  */
+    align-items: center;
+    /* margin-bottom: 10px; */
 }
 .search-container input{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    height: 40px;
+    border: 0;
 }
 .search-container img{
     width: 20px;
