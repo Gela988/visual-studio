@@ -1,0 +1,27 @@
+@media only screen and ( max-width:1000px){
+    .search-container{
+        display: none;
+    }
+    .responsive-menu{
+        display: block;
+    }
+    .d-flex nav{
+        display: none;
+    }
+    .welcome-text-container {
+        width: 100%;
+    }
+    .welcome-text-container div{
+        margin-left: 350px;
+    }
+    .windovs-download-top2 {
+        width: 100%;
+    }
+    .welcome-text-container img{
+        width: 100%;
+        margin-left: 243px;
+    }
+    .d-flex{
+        flex-wrap: wrap;
+    }
+}

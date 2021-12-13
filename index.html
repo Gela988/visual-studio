@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Visual studio code</title>
+        <title>Visual Studio Code</title>
         <link rel="stylesheet" href="./asetebi/css/style.css">
+        <link rel="stylesheet" href="./asetebi/css/media.css">
         <link rel="favicon" href="./asetebi/inons/vs.code.png">
+        <link rel="shortcut icon" href="./asetebi/logo/Visual_Studio_Code_1.35_icon.svg" type="image/x-icon">
     </head>
 </html>
 <body>
@@ -15,6 +17,9 @@
                         <img src="./asetebi/logo/Visual_Studio_Code_1.35_icon.svg" alt="image">
                         <a href="index.html">Visual Studio Code</a>
                     </div>
+                    <button class="responsive-menu">
+                        MENU
+                    </button>
                     <nav>
                         <a href="#">Docs</a>
                         <a href="#">Updates</a>
@@ -75,7 +80,7 @@
             <img src="./asetebi/image/background img.png" alt="image">
         </div>
     </div>
-    <!-- link-container -->
+    <!-- linkebi -->
     <div class="link-container">
         <div class="container d-flex">
              <a href="#"> 
@@ -95,30 +100,45 @@
                 <p>Extensions</p>
             </a>
         </div>
-        <!-- info-container -->
+    </div>    
+    <!-- info-container -->
     <div class="info-container">
         <div class="container d-flex profile">
-            <div class="info-profile">
+            <a href="#"class="info-profile">
                 <img src="./asetebi/image/una krav.jpg" alt="">
-                <p> <a href="#"> Una Kravets @Una </a>
-                    VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                <div>
+                <div class="text-container">
+                 <h6> Una Kravets <span> @Una</span></h6>
+                </div>
+                 <p> VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
                 </p> 
-            </div>
-            <div class="info-profile">
-                <p> <a href="#"> Jonathan Dunlap @jadbox</a>
-                    VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥
+              </div>
+            </a>
+            <a href="#"class="info-profile">
+                <img src="./asetebi/image/jonatan.jpg" alt="">
+                <div>
+                <div class="text-container">
+                  <h6>Jonathan Dunlap <span> @jadbox</span></h6>
+                </div>
+                 <p>   VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥
                 </p>
-            </div>
-            <div class="info-profile">
-                <p> <a href="#"> Pavithra Kodmad @PKodmad</a>
-                    VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!
+             </div>
+            </a>
+            <a href="#"class="info-profile">
+                <img src="./asetebi/image/pkodmad.jpg" alt="">
+                <div>
+                <div class="text-container">
+                 <h6> Pavithra Kodmad <span> @PKodmad</span></h6>
+                </div>
+                  <p> VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!
                 </p>
-            </div>
+             </div>
+            </a>
+            <img class="left arow" src="./asetebi/logo/chevron-left-solid.svg" alt="">
+            <img class="right arow" src="./asetebi/logo/chevron-right-solid.svg" alt="">
         </div>
     </div>
-    </div>
-
-           <!-- container 1 -->
+   <!-- container 1 -->        
     <div class="div1">
         <div class="container d-flex">
             <div class="div1-text">
@@ -132,7 +152,7 @@
             </div>
         </div>
     </div>
-           <!-- container2 -->
+   <!-- container2 -->
     <div class="info-container2">
         <div class="container d-flex">
             <div class="div2-text">
@@ -145,7 +165,7 @@
             </div>
         </div>
     </div>
-         <!-- container3 -->
+   <!-- container3 -->
     <div class="div1">
         <div class="container d-flex">
             <div class="div1-text">
@@ -157,9 +177,9 @@
             </div>
         </div>
     </div>
+    <!-- container4 -->
     <div class="info-container2">
         <div class="container d-flex">
-            <!-- container4 -->
                 <div class="div2s">
                  <p class="p3"> Extensible and customizable.</p>
                  <p class="p4">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. 
@@ -170,7 +190,7 @@
                 </div>
         </div>
     </div>
-     <!-- container5 -->
+    <!-- container5 -->
      <div class="div1">
          <div class="container d-flex">
              <div class="div1-text">
@@ -182,7 +202,7 @@
              </div>
          </div>
      </div>
-       <!-- container6 -->
+    <!-- container6 -->
      <div class="swimlane-getting-started">
          <div class="container d-flex">
              <div class="row-container">
@@ -273,18 +293,65 @@
              <a href="#">Get Started Now</a>
          </div>
      </div>  
-     <!-- container7 -->
+    <!-- container7 -->
      <div class="all-download">
          <div class="container d-flex">
              <div class="down">
-                 <div class="logo-windovs"></div>
+                 <div class="logo-windovs"> </div>
                  <button>
                      <img src="./asetebi/logo/download (1).svg" alt="" width="18px" height="18px">
                      Windows
                      <small>Windows 7, 8, 10, 11</small>
                  </button>
+                 <table class="win-download" >
+                     <tbody>
+                         <tr>
+                             <td>
+                                 <strong>User Installer</strong>
+                             </td>
+                             <td>
+                                 <a class="link-platform" href="#">64bit</a>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">32bit</a>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">ARM</a>
+                             </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <strong>System Installer</strong>
+                            </td>
+                            <td>
+                                <a class="link-platform" href="#">64bit</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">32bit</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">ARM</a>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <strong>.zip</strong>
+                            </td>
+                            <td>
+                                <a class="link-platform" href="#">64bit</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">32bit</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">ARM</a>
+                            </td>
+                         </tr>
+                     </tbody>
+                 </table>
              </div>
              <div class="down2">
+                 <div class="logo-linux"></div>
                  <button>
                      <img src="./asetebi/logo/download (1).svg" alt="" width="18px" height="18px">
                      .deb
@@ -295,14 +362,102 @@
                     .rmp
                     <small>Red Hat, Fedora, SUSE</small>
                  </button>
+                 <table class="win-download">
+                     <tbody>
+                         <tr>
+                             <td>
+                                 <strong>.deb</strong>
+                             </td>
+                             <td>
+                                 <a class="link-platform"href="#">64bit</a>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">ARM</a>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">ASRM 64</a>
+                             </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <strong>.rpm</strong>
+                            </td>
+                            <td>
+                                <a class="link-platform"href="#">64bit</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">ARM</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">ASRM 64</a>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <strong>.tar.gz</strong>
+                            </td>
+                            <td>
+                                <a class="link-platform"href="#">64bit</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">ARM</a>
+                            </td>
+                            <td>
+                               <a class="link-platform"href="#">ASRM 64</a>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                              <a  class="link-platform" href="#">Snap Store</a>
+                            </td>
+                         </tr>
+                     </tbody>
+                 </table>
              </div>
              <div class="down">
+                 <div class="logo-mac"></div>
                  <button>
                     <img src="./asetebi/logo/download (1).svg" alt="" width="18px" height="18px">
                     Mac
                     <small>macOS 10.11+</small>
                  </button>
+                 <table class="win-downloads">
+                     <tbody>
+                         <tr>
+                             <td>
+                                 <strong>.zip</strong>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">universal</a>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">intel chip</a>
+                             </td>
+                             <td>
+                                <a class="link-platform"href="#">apple silicon</a>
+                             </td>
+                         </tr>
+                     </tbody>
+                 </table>
              </div>
+         </div>
+     </div>
+     <div class="swimlane">
+         <div class="container d-flex">
+             <div class="terms-text-center">
+                 <h2>Want new features sooner?</h2>
+                 <p>Get the <a href="#"> Insiders build</a> instead.</p>
+             </div>
+         </div>
+     </div>
+     <div class="swimlane">
+         <div class="container d-flex">
+            <div class="top-termt-text-center">
+                <h3>LICENSE AND PRIVACY TERMS</h3>
+                <p>
+                    By downloading and using Visual Studio Code, you agree to the <a href="#"> license terms</a> and <a href="#"> privacy statement</a>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <a href="#">How to Disable Crash Reporting</a>  to learn how to disable it.
+                </p>
+            </div>
          </div>
      </div>
      <!-- finish -->

@@ -2,9 +2,14 @@ body{
     margin: 0;
 }
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 40px;
     background-color: #444;
     align-items: center;
+    z-index: 1;
 }
 header a{ 
     color: rgba(255,255,255,0.6);;
@@ -70,9 +75,18 @@ img{
     font-size: 18px;
     color: white;
 }
+.responsive-menu{
+    width: 80px;
+    padding: 7px;
+    color: white;
+    margin: 0;
+    display: none;
+    margin-left: 540px;
+}
 .notification-block{
     padding:10px 0;
     background-color: #25252B;
+    margin-top: 40px;
 }
 .notification-block p{
     margin: 0;
@@ -109,7 +123,6 @@ img{
     color: #444;
 }
 .link-container img{
-    width: 60px;
     height: 60px;
     display: block;
     margin: auto;
@@ -180,44 +193,60 @@ img{
 }
 .info-container{
     background-color: #f5f5f5;
-    height: 200px;
+    height: 150px;
 }
 .info-container p{
     margin-top:30px;
 }
+.info-container .container{
+    position: relative;
+}
+.info-container .arow{
+    position: absolute;
+    top: 50px;
+    width: 20px;
+}
+.info-container .arow.left{
+    left: -30px;
+}
+.info-container .arow.right{
+    right: -30px;
+}
 .info-profile{
+    text-decoration: none;
     display: flex;
 }
 .info-profile p{
-    width: 250px;
-    height: 100px;
-    flex-grow: 1;
-    flex-direction: column; 
-    margin-left:50px;
+    text-align: left;
+    margin:0;
     color: #444;
 }
-.info-profile a{
-    display: block;
+ .info-profile a{
     justify-content: flex-start;
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
+} 
 .info-profile img{
-    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
 }
 .profile{
-    height: 150px;
     margin-top:15px;
-    margin-left: 210px;
 }
-.slide{
-    width: 33.33%;
+.profile.info-profile{
     max-width: 33.33%;
+}
+.text-container h6{
+    color: black;
+    display: flex;
+    margin: 0;
+    font-size: 17px;
 }
 .div1-text{
     margin-top: 60px;
-    margin-left: 70px;
+    margin-left: 40px;
     display: flex;
 }
 .div1-text img{
@@ -329,16 +358,47 @@ img{
     font-size: 20px;
     margin-left: 40px;
 }
+.all-download.down{
+    padding: 0 25px;
+    display: inline-block;
+    vertical-align: top;
+}
 .down{
     display: inline-block;
     vertical-align: top;
 }
-.down2 {
-    width: 400px;
-    display: flex;
-} 
+.down2 button{ 
+    width: 154px;
+    background-color: red;
+}
+.down2 table{
+     display: inline-block; 
+}
+.win-downloads{
+    align-items: center;
+    display: inline-block;
+}
 .logo-windovs{
-    background-color: black;}
+    width: 100px;
+    height: 100px;
+    background-size: contain !important;
+    margin-left: 90px;
+    background-image: url(../image/windows-logo.png);
+}
+.logo-linux{
+    width: 88px;
+    height: 100px;
+    background-size: contain !important;
+    background-image: url(../image/linux-logo.png);
+    margin-left: 160px;
+}
+.logo-mac{
+    width: 82px;
+    height: 100px;
+    background-size: contain !important;
+    background-image: url(../image/apple-logo.svg);
+    margin-left: 115px;
+}
 button{
     color: white;
     font-size: 20px;
@@ -357,6 +417,37 @@ button small{
     display: block;
     color: white;
     margin-top: 15px;
+}
+.link-platform{
+    background: #0066b8;
+    color: #fff;
+    display: inline-block;
+    padding: 0 3px;
+    white-space: nowrap;
+    font-size: 12px;
+    text-decoration: none;
+}
+.swimlane{
+    height: 200px;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.terms-text-center{
+    margin-top: 30px;
+    margin-left: 350px;
+}
+.terms-text-center a{
+    color: #0071bc;;
+    text-decoration: none;
+}
+.top-termt-text-center{
+    color: #444;
+    width: 710px;
+    margin-left: 140px;
+}
+.top-termt-text-center a{
+    color:#0071bc ;
+    text-decoration: none;
 }
    /* finish */
 footer{
