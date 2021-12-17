@@ -116,6 +116,7 @@ img{
     font-size: 30px;
 }
 .link-container a{
+    width: 250px;
     text-decoration: none;
     flex-grow: 1;
     flex-direction: column; 
@@ -193,7 +194,7 @@ img{
 }
 .info-container{
     background-color: #f5f5f5;
-    height: 150px;
+    height: 180px;
 }
 .info-container p{
     margin-top:30px;
@@ -203,7 +204,7 @@ img{
 }
 .info-container .arow{
     position: absolute;
-    top: 50px;
+    top: 70px;
     width: 20px;
 }
 .info-container .arow.left{
@@ -233,6 +234,7 @@ img{
     border-radius: 100%;
 }
 .profile{
+    padding: 30px 0;
     margin-top:15px;
 }
 .profile.info-profile{
@@ -358,31 +360,39 @@ img{
     font-size: 20px;
     margin-left: 40px;
 }
-.all-download.down{
+.ragaca{
+    padding: 10px 0;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+}
+.all-download.down1{
     padding: 0 25px;
     display: inline-block;
     vertical-align: top;
 }
-.down{
-    display: inline-block;
-    vertical-align: top;
+.down1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .down2 button{ 
     width: 154px;
-    background-color: red;
+    display: inline-block;
 }
-.down2 table{
-     display: inline-block; 
+.win-download2{ 
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .win-downloads{
     align-items: center;
-    display: inline-block;
+    display: flex;
 }
 .logo-windovs{
     width: 100px;
     height: 100px;
     background-size: contain !important;
-    margin-left: 90px;
     background-image: url(../image/windows-logo.png);
 }
 .logo-linux{
@@ -390,22 +400,22 @@ img{
     height: 100px;
     background-size: contain !important;
     background-image: url(../image/linux-logo.png);
-    margin-left: 160px;
+    margin-left: 115px;
 }
 .logo-mac{
     width: 82px;
     height: 100px;
     background-size: contain !important;
     background-image: url(../image/apple-logo.svg);
-    margin-left: 115px;
 }
 button{
     color: white;
+    margin: 20px 0;
     font-size: 20px;
-    margin: 20px;
     padding: 10px;
     align-items: center;
     width: 240px;
+    max-width: 180px;
     background-color: #0066B8;
 }
 button img{
